@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/app"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/id_front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="身份证人像面"/>
+
+    <Button
+        android:id="@+id/id_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="身份证国徽面"/>
+
+    <Button
+        android:id="@+id/bankcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="银行卡"/>
+
+
+    <ImageView
+        android:id="@+id/full_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/detect_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

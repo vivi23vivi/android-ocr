@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--相机遮罩层，介于可操作控件和CameraView之间-->
+    <com.mpaas.ocr.view.CaptureMaskView
+        android:id="@+id/capture_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:detectAreaHeightWidthRatio="0.627"
+        app:detectAreaMarginTop="200dp"
+        app:detectAreaWidthPercent="0.8"
+        app:detectCornerColor="#22ddff"
+        app:detectCornerHeight="5dp"
+        app:detectCornerLength="20dp"
+        app:detectEdgeColor="#dd33dd"
+        app:detectEdgeWidth="4px"
+        app:maskBackgroundColor="#C8323232" />
+
+    <!-- 顶部操作栏 -->
+    <com.mpaas.ocr.view.CommonTitleBar
+        android:id="@+id/title_ly"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        app:lefticon="@drawable/selector_btn_back"
+        app:lefttextcolor="#ffffff"
+        app:lefttextsize="18dp" />
+
+    <!--&lt;!&ndash; 底部白色区块 &ndash;&gt;-->
+    <!--<LinearLayout-->
+    <!--android:id="@+id/white_bottom"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="#ffffffff"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/result"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/img1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/img2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/tv_rect_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:textColor="#ff999999"
+        android:textSize="14dp" />
+</merge>

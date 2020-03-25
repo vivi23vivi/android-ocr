@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="AU_TEXTSIZE5">18dp</dimen>
+    <dimen name="AU_MARGIN_UNIVERSAL">14dp</dimen>
+
+</resources>

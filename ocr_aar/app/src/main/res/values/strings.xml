@@ -1,0 +1,15 @@
+<resources>
+    <string name="app">OCR Demo</string>
+    <string name="coming_soon">建设中，敬请期待！</string>
+    <string name="ocr">OCR组件</string>
+    <string name="appid_ocr">33330017</string>
+    <string name="ocr_idcard_front">身份证识别-正面</string>
+    <string name="ocr_idcard_back">身份证识别-背面</string>
+    <string name="ocr_bankcard">银行卡识别</string>
+    <string name="ocr_tj_logo">天津银行logo识别</string>
+    <string name="scan_card">扫描银行卡</string>
+    <string name="scan_bank_logo">扫描银行Logo</string>
+    <string name="scan_id_card_front">扫描身份证正面</string>
+    <string name="scan_id_card_back">扫描身份证背面</string>
+    <string name="capture_rect_tip">将银行卡卡号面放在此区域，扫描卡片</string>
+</resources>
